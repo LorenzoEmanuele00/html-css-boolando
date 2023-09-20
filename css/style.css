@@ -12,7 +12,7 @@ img {
 /* HEADER */
 header {
     background-color: rgb(246 105 4);
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
 }
@@ -25,7 +25,7 @@ header {
 }
 
 nav {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     padding: 2rem 0;
 }
@@ -56,3 +56,85 @@ a{
 }
 
 /* MAIN */
+
+main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    width: calc(100% / 3);
+    padding: 50px;
+}
+
+.card {
+    position: relative;
+}
+
+.hover {
+    display: none;
+}
+
+.card:hover .normal {
+    display: none;
+}
+
+.card:hover .hover {
+    display: inline-block;
+}
+
+.like {
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.like:hover {
+    color: red;
+}
+
+.brand {
+    font-size: .7rem;
+    color: gray;
+}
+
+.item {
+}
+
+.cost {
+    font-size: .7rem;
+    color: red;
+    padding-right: 3px ;
+}
+
+.old-cost {
+    font-size: .7rem;
+    color: grey;
+    text-decoration: line-through;
+}
+
+.tags {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+}
+.discount {
+    background-color: red;
+    color: white;
+    padding: .1rem .3rem;
+    margin-right: 3px;
+}
+
+.eco {
+    background-color: green;
+    color: white;
+    padding: .1rem .3rem;
+    margin-right: 3px;
+}
