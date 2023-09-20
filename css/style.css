@@ -11,23 +11,30 @@ img {
 
 /* HEADER */
 header {
+    padding-bottom: 70px;
+}
+
+/* top nav fixed */
+.top {
     background-color: rgb(246 105 4);
-    position: relative;
+    position: fixed;
+    z-index: 1;
     top: 0;
     width: 100%;
+    
 }
 
 .logo {
     position: absolute;
-    width: 10rem;
-    top: 1.5rem;
+    width: 150px;
+    top: 7px;
     right: calc(50% - 5rem);
 }
 
 nav {
     width: 75%;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 /* flex property nav */
@@ -107,8 +114,6 @@ main {
     color: gray;
 }
 
-
-
 .cost {
     font-size: .7rem;
     color: red;
@@ -126,6 +131,7 @@ main {
     bottom: 30px;
     left: 0;
 }
+
 .discount {
     background-color: red;
     color: white;
@@ -143,18 +149,19 @@ main {
 /* FOOTER */
 footer {
     background-color: black;
-}
-
-.foot {
-    width: 75%;
-    margin: 0 auto;
-    padding: 20px 0;
+    border-bottom: 2px solid white;
 }
 
 /* flex property foot */
 .flex-foot {
     display: flex;
     justify-content: space-between;
+}
+
+.foot {
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px 0;
 }
 
 .find,
