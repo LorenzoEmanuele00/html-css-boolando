@@ -1,3 +1,4 @@
+/* RESET */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,3 +9,50 @@ img {
     max-width: 100%;
 }
 
+/* HEADER */
+header {
+    background-color: rgb(246 105 4);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    width: 10rem;
+    top: 1.5rem;
+    right: calc(50% - 5rem);
+}
+
+nav {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+/* flex property nav */
+.flex-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* flex property ul */
+.flex-links {
+    display: flex;
+}
+
+.links li {
+    list-style-type: none;
+}
+
+/* for every a in page */
+a{ 
+    text-decoration: none;
+    color: white;
+}
+
+.space {
+    padding: 0 .5rem;
+}
+
+/* MAIN */
