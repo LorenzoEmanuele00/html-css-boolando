@@ -25,7 +25,7 @@ header {
 }
 
 nav {
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
     padding: 2rem 0;
 }
@@ -52,16 +52,16 @@ a{
 }
 
 .space {
-    padding: 0 .5rem;
+    padding-right: .5rem;
 }
 
 /* MAIN */
-
 main {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
+/* flex property row */
 .flex-row {
     display: flex;
     flex-wrap: wrap;
@@ -76,6 +76,7 @@ main {
     position: relative;
 }
 
+/* card img changer */
 .hover {
     display: none;
 }
@@ -87,6 +88,7 @@ main {
 .card:hover .hover {
     display: inline-block;
 }
+/* /card img changer */
 
 .like {
     background-color: white;
@@ -105,8 +107,7 @@ main {
     color: gray;
 }
 
-.item {
-}
+
 
 .cost {
     font-size: .7rem;
@@ -137,4 +138,27 @@ main {
     color: white;
     padding: .1rem .3rem;
     margin-right: 3px;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+}
+
+.foot {
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* flex property foot */
+.flex-foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.find,
+.society {
+    color: white;
+    padding-bottom: 10px;
 }
